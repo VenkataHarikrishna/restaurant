@@ -10,7 +10,7 @@ const Contact = () => {
     <Layout1>
         <Box sx={{
           my:5,
-          ml:10,
+          ml:5,
           '& h4':{
             fontweight:'bold',
             mb:'2'
@@ -21,7 +21,7 @@ const Contact = () => {
           <Box sx={{
             m:3,
             width:'600px',
-            ml:10,
+            ml:8,
             '@media (max-width:600px)':{
               width:'300px',
             }}}>
